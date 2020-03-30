@@ -6,8 +6,8 @@ namespace Lab_2
     {
         static void Main(string[] args)
         {
-            Console.WriteLine("Hello World!");
-            Console.WriteLine("Segundo Laboratorio");
+            Cancion cancion = new Cancion("Alaro","CEspedes","123","lalal");//Estoy llamando al constructor de la clase
+            List<string> ListaCanciones
         }
     }
 }
