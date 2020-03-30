@@ -6,8 +6,8 @@ namespace Lab_2
     {
         static void Main(string[] args)
         {
-            Cancion cancion = new Cancion("Alaro","CEspedes","123","lalal");//Estoy llamando al constructor de la clase
-            List<string> ListaCanciones
+            Cancion cancion = new Cancion("Sad but True","Black Album","Metallica","Metal");//Estoy llamando al constructor de la clase
+            Console.WriteLine(cancion);
         }
     }
 }

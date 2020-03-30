@@ -10,14 +10,18 @@ namespace Lab_2
         public string Album;
         public string Artista;
         public string Genero;
+        List<string> ListaCanciones; //Creo la lista de la clase cancion
+        public Cancion()//Creo el constructor de la lista 
+        {
+            ListaCanciones = new List<string>();
+        }
         public string Informacion() // Primer Metodo de cancion
         {
             Console.WriteLine("Informacion de la cancion");
             {
-                return ListaCanciones;
+                return null;
             }
         }
-        List<string>ListaCanciones; //Creo la lista de la clase cancion
         public Cancion (string nombre, string album, string artista, string genero) // Creo el constructor de la clase cancion
         {
             this.Nombre = nombre;
@@ -29,9 +33,6 @@ namespace Lab_2
 
     public class Espotifai //Solo tiene metodos relacionados con Cancion
     {
-        public bool AgregarCancion(Cancion cancion)
-        {
 
-        }
     }
 }
