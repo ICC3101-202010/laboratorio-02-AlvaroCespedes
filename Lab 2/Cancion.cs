@@ -14,6 +14,7 @@ namespace Lab_2
         public Cancion()//Creo el constructor de la lista 
         {
             ListaCanciones = new List<string>();
+
         }
         public string Informacion() // Primer Metodo de cancion
         {
@@ -33,6 +34,9 @@ namespace Lab_2
 
     public class Espotifai //Solo tiene metodos relacionados con Cancion
     {
-
+        public void AgregarCancion(string cancion)
+        {
+            lista1.Add(cancion);
+        }
     }
 }
